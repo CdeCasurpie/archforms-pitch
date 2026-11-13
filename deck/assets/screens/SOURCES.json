@@ -1,0 +1,14 @@
+{
+  "source": "/home/cesar/contexto/ArchVentures",
+  "method": "Render estático de componentes de App.tsx, CaptureActions de Capture.tsx y VisitSummary de Summary.tsx; carcasa móvil de demostración; sin efectos, cuentas, cámara ni nube.",
+  "data": "Sintéticos. No representan una visita real.",
+  "font": "Manrope, fallback declarado por el CSS original.",
+  "capture": "Visor recreado según Capture.tsx, controles originales renderizados.",
+  "screens": [
+    "home",
+    "expedient",
+    "checklist",
+    "capture",
+    "summary"
+  ]
+}
