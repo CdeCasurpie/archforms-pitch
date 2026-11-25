@@ -34,11 +34,11 @@
     },
     {
       "sceneId": "inspector",
-      "notes": "Imaginen que son un inspector de obra.\n\nDIRECCIÓN: el personaje SVG se pone el casco. Avanza cuando quieras empezar a sumar el tiempo de la visita."
+      "notes": "Este es el arquitecto Aliaga, inspector de obra municipal. Una visita, muchas cosas por registrar."
     },
     {
       "sceneId": "visit-time",
-      "notes": "Viajan a la construcción. +20 minutos.\n\n[AVANCE: fotografías]\nToman fotografías. +15 minutos.\n\n[AVANCE: observaciones]\nHacen observaciones. +15 minutos.\n\nDIRECCIÓN: la suma es el ejemplo del relato, no un promedio sectorial.",
+      "notes": "Aliaga hace cuatro visitas a la semana. En cada visita: traslado. +40 minutos.\n\n[AVANCE: fotografías]\nToman fotografías. +30 minutos.\n\n[AVANCE: observaciones]\nHacen observaciones. +30 minutos.\n\nDIRECCIÓN: la suma es el ejemplo del relato, no un promedio sectorial.",
       "fragments": [
         80.1,
         80.6,
@@ -55,23 +55,23 @@
     },
     {
       "sceneId": "extra-time",
-      "notes": "De hecho, tienes que ir a tu casa para poder ordenar y redactar toda esa información que, hasta ese momento, solo existe en tu cabeza.\nY ahí empieza otro trabajo que puede tomar hasta DOS HORAS MÁS.\n\n[pausa feliz, bueno triste]\n\nDIRECCIÓN: la barra usa 50 minutos de campo y 120 minutos adicionales, a la misma escala."
+      "notes": "De hecho, tienes que ir a tu casa para poder ordenar y redactar toda esa información que, hasta ese momento, solo existe en tu cabeza.\nY ahí empieza otro trabajo que puede tomar hasta CINCO HORAS MÁS.\n\n[pausa feliz, bueno triste]\n\nDIRECCIÓN: la barra usa 100 minutos de campo y 300 minutos adicionales, a la misma escala."
     },
     {
-      "sceneId": "needs",
-      "notes": "El arquitecto necesita una herramienta hecha para el.\n\n[AVANCE: aparecen las tareas y se tachan en rojo]\nAlgo que no le pida copiar, pegar, ordenar fotos, corregir tablas, rehacer formatos. Una y otra vez.\n\nDIRECCIÓN: el tachado indica tareas que no debería repetir manualmente; después pasa al contexto de las evidencias.",
+      "sceneId": "monthly",
+      "notes": "Primero muestra una semana típica de Aliaga: traslado de ida, visita en obra, regreso y gabinete. Los días y horarios son ilustrativos; los 40 minutos de traslado se reparten en 20 de ida y 20 de vuelta en este ejemplo.\n\n[AVANCE: resalta los cuatro bloques de gabinete y revela el total]\nCuatro visitas por cinco horas de gabinete: 20 horas semanales preparando informes.",
       "fragments": [
         110.1,
         110.6
       ]
     },
     {
-      "sceneId": "context",
-      "notes": "Porque no se trata simplemente de poner fotos en un documento.\n¡Cada foto tiene una observación, una ubicación y un problema que debe quedar registrado!\nY todo eso tienen que organizarlo manualmente."
-    },
-    {
-      "sceneId": "monthly",
-      "notes": "Según nuestras entrevistas, los profesionales estiman entre 15 y 30 HORAS MENSUALES dedicadas únicamente a este TRABAJO DE GABINETE.\n\nDIRECCIÓN: cifra declarada por entrevistados; no presentarla como una medición de todo el sector."
+      "sceneId": "needs",
+      "notes": "Nuestro arquitecto necesita una herramienta para él.\n\n[AVANCE: aparecen las tareas y se tachan en rojo]\nAlgo que no le pida copiar, pegar, ordenar fotos, corregir tablas, rehacer formatos. Una y otra vez.\n\nDIRECCIÓN: el tachado indica tareas que no debería repetir manualmente; después pasa al contexto de las evidencias.",
+      "fragments": [
+        120.1,
+        120.6
+      ]
     },
     {
       "sceneId": "during",
@@ -79,39 +79,31 @@
     },
     {
       "sceneId": "archforms",
-      "notes": "Así nació ArchForms, nuestro copiloto de obra.\n\nDIRECCIÓN: breve momento de marca antes del recorrido por el producto."
+      "notes": "Así nació ArchForms. Acompañamos al inspector de obra desde la visita hasta el reporte final en PDF.\n\nDIRECCIÓN: di el one-liner despacio, sin prisa; es la frase que resume todo el producto. Pausa antes del recorrido."
     },
     {
-      "sceneId": "start-visit",
-      "notes": "El inspector inicia una visita.\n\nDIRECCIÓN: demostración visual con capturas de componentes; se destaca Nueva visita y aparece el checklist. No se escribe en la aplicación real."
+      "sceneId": "app-demo",
+      "notes": "Presenta los tres pasos. Todavía no hay ninguno seleccionado."
     },
     {
-      "sceneId": "fill-checklist",
-      "notes": "Llena su checklist.\n\nDIRECCIÓN: las selecciones son una animación ilustrativa sobre la interfaz, no respuestas persistidas."
+      "sceneId": "app-demo-checklist",
+      "notes": "Marca las verificaciones mientras recorre el checklist."
     },
     {
-      "sceneId": "take-photos",
-      "notes": "Toma fotografías.\n\nDIRECCIÓN: visor y disparo simulados. La fotografía es ilustrativa y no pertenece a una visita real."
+      "sceneId": "app-demo-evidence",
+      "notes": "Toma dos fotos y agrúpalas en la visita. Los disparos son simulados."
     },
     {
-      "sceneId": "record",
-      "notes": "Registra observaciones.\n\nDIRECCIÓN: la onda es visual, no hay grabación ni audio. No se inventa una transcripción atribuida a un usuario."
-    },
-    {
-      "sceneId": "export",
-      "notes": "Y en cuestión de segundos, la aplicación recopila toda la información y exporta un PDF listo para entregar.\n¡Un checklist, una foto, una observación... Y TU DOCUMENTO ESTÁ LISTO!\n\nDIRECCIÓN: esta es una animación explicativa de armado de informe. La rapidez del efecto no es un benchmark; el profesional revisa antes de entregar."
+      "sceneId": "app-demo-observation",
+      "notes": "Graba una nota de voz para añadir contexto a las fotos. El micrófono no está activo."
     },
     {
       "sceneId": "document-ready",
-      "notes": "¡Un checklist, una foto, una observación... Y TU DOCUMENTO ESTÁ LISTO!\nUna aplicación sencilla y rápida de usar.\n\nDIRECCIÓN: es la síntesis del flujo mostrado, no una medición de velocidad. Revisa el informe antes de entregar."
-    },
-    {
-      "sceneId": "before-after",
-      "notes": "Y nunca más se tendra que volver a reconstruir la visita desde cero.\n¡ESO ES LO QUE CAMBIA!\nPorque antes, al terminar la visita, todavía tenía que empezar el informe.\nAhora, al terminar la visita, ¡el trabajo ya esta hecho!\nY lo que mas importa: Adios al tedioso trabajo de gabinete.\n\nDIRECCIÓN: el contraste visual termina en revisar el informe para mantener explícito el criterio profesional."
+      "notes": "Así se ve un informe generado con ArchForms. El recorrido muestra la ficha de obra, el checklist, el registro fotográfico y las conclusiones. El profesional puede revisar el PDF antes de entregarlo."
     },
     {
       "sceneId": "goodbye-office",
-      "notes": "Y lo que más importa: adiós al tedioso trabajo de gabinete.\n\nDIRECCIÓN: hablamos de dejar atrás el armado repetitivo del informe, no de eliminar la revisión ni el criterio profesional."
+      "notes": "¿Cómo sabemos que funciona?"
     },
     {
       "sceneId": "interviews",
@@ -122,20 +114,36 @@
       "notes": "Encontramos bastante interés en nuestra propuesta y algo revelador: algunos ya usan herramientas similares, aunque no especializadas en estos informes.\n\nDIRECCIÓN: Report and Run se presenta como referente existente de reportes fotográficos. No atribuirle carencias concretas ni afirmar que no sirve a arquitectura: su web menciona ese sector."
     },
     {
-      "sceneId": "ux-friction",
-      "notes": "Con los estudiantes que exploraron el prototipo también detectamos dificultades.\nVarios no sabían por dónde empezar o cómo generar el PDF."
-    },
-    {
-      "sceneId": "simplify",
-      "notes": "¿QUÉ DECIDIMOS?\nSimplificamos el inicio para hacer más claro el flujo.\nPorque el interés existe.\n\nDIRECCIÓN: mostrar el flujo simplificado, no un antes/después de pantallas que no esté documentado."
-    },
-    {
       "sceneId": "savings",
-      "notes": "¡Y EL AHORRO DE TIEMPO ES REAL!\nDe hecho, los arquitectos que utilizaron nuestra aplicación nos mencionaron que, de las DOS HORAS que invertían en preparar el informe, ahora dedican tan solo 15 MINUTOS a revisarlo.\n\n[AVANCE: revelar tiempo recuperado]\n¡Estamos hablando de recuperar más de una hora y media por informe!\nTiempo que antes pasaban frente a Word y que ahora pueden dedicar a su verdadero trabajo.\n\nDIRECCIÓN: resultados declarados por usuarios entrevistados, no ensayo controlado ni garantía de ahorro universal. Diferencia aritmética: 120 − 15 = 105 minutos.",
+      "notes": "¡Y EL AHORRO DE TIEMPO ES REAL!\nDe hecho, los arquitectos que utilizaron nuestra aplicación nos mencionaron que, de las CUATRO HORAS que invertían en preparar el informe, ahora dedican tan solo 15 MINUTOS a revisarlo.\n\n[AVANCE: revelar tiempo recuperado]\n¡Estamos hablando de recuperar tres horas y cuarenta y cinco minutos por informe!\nTiempo que antes pasaban frente a Word y que ahora pueden dedicar a su verdadero trabajo.\n\nDIRECCIÓN: resultados declarados por usuarios entrevistados, no ensayo controlado ni garantía de ahorro universal. Diferencia aritmética: 240 − 15 = 225 minutos.",
       "fragments": [
-        280.1,
-        280.6
+        230.1,
+        230.6
       ]
+    },
+    {
+      "sceneId": "business-model",
+      "notes": "ArchForms funciona con una suscripción mensual. El inspector puede probarlo un mes gratis. Luego, el plan Individual cuesta 60 soles al mes, y el plan Equipos cuesta 50 soles al mes por usuario desde cinco usuarios. Las suscripciones incluyen informes ilimitados: no cobramos por cada PDF."
+    },
+    {
+      "sceneId": "market",
+      "notes": "Tan solo en el Perú estimamos más de 800 inspectores municipales de obra, entre arquitectos e ingenieros.\n\n[AVANCE: se ilumina toda la región]\nEn América Latina y el Caribe estimamos más de 16 mil inspectores. Redactar informes consume parte de su jornada; el cálculo estima el número de inspectores, no el tiempo que pierde cada uno.\n\nFUENTES: [M1–M6] Padrones CAP/CIP de Lima, Piura y Arequipa (2024–2028; vigencia de Arequipa por confirmar). Base: 346 registros deduplicados. Extrapolación por población: INEI (Censo 2025) y CEPAL (2024).",
+      "fragments": [
+        250.1,
+        250.6
+      ]
+    },
+    {
+      "sceneId": "team",
+      "notes": "Detrás de ArchForms estamos Melisa Rivera y César Perales. Melisa se enfoca en el desarrollo de inteligencia artificial y César en el desarrollo de la aplicación. Ahora queremos que más inspectores lo prueben en sus visitas. Y ahí es donde ustedes nos pueden ayudar."
+    },
+    {
+      "sceneId": "launch",
+      "notes": "Hoy tenemos cinco arquitectos probando ArchForms en obra y doce testers buscando errores. En una semana, la aplicación estará disponible al público."
+    },
+    {
+      "sceneId": "acquisition",
+      "notes": "Conseguir clientes entre los arquitectos no es fácil. Haz una pausa y pasa a la pregunta al público."
     },
     {
       "sceneId": "introduce",
