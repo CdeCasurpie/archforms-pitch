@@ -19,7 +19,6 @@ function animateEntry(el,direction,withinDemo=false){
   if(reportWindow)reportWindow.scrollTop=0;
   gsap.set(q(resetSelector),{clearProps:'transform,opacity,clipPath'});
   gsap.set(q('.demo-stage'),{clearProps:'transform,opacity'});
-  gsap.set(q('.competitor-cross,.competitor-content'),{clearProps:'transform,opacity'});
   window.__pitchMotion.running=false;
   if(reducedMotion||!live)return;
   const tl=gsap.timeline({onComplete:()=>{window.__pitchMotion.running=false;}});entrance=tl;window.__pitchMotion.running=true;window.__pitchMotion.timeline=tl;
@@ -37,9 +36,6 @@ function animateEntry(el,direction,withinDemo=false){
   if(q('.phone').length)tl.fromTo(q('.phone'),{x:direction*65,y:60,rotationY:-9,transformPerspective:1600,opacity:0},{x:0,y:0,rotationY:0,opacity:1,duration:1.1,stagger:.14,ease:'power3.out'},.15);
   if(q('[data-grow]').length)tl.fromTo(q('[data-grow]'),{scaleX:0},{scaleX:1,duration:1.15,stagger:.2,ease:'power3.inOut'},.35);
    switch(el.id){
-     case 'category':
-       tl.fromTo(q('.competitor-cross'),{opacity:0,scale:.65},{opacity:1,scale:1,duration:.4,ease:'back.out(1.3)',immediateRender:true},1.5)
-         .fromTo(q('.competitor-content'),{opacity:1},{opacity:.5,duration:.45},1.5);break;
     case 'word':
       tl.fromTo(q('.loose-photo'),{y:180,x:80,rotation:20,opacity:0},{y:0,x:0,rotation:i=>[-7,9][i],opacity:1,duration:1,stagger:.15,ease:'back.out(1.1)'},.3)
         .fromTo(q('.document-cursor'),{x:80,y:50,opacity:0},{x:0,y:0,opacity:1,duration:1,ease:'power3.out'},.7);break;

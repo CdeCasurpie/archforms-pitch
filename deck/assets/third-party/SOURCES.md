@@ -12,3 +12,10 @@ Todos se descargaron para uso local; la presentación no necesita CDN.
 Los logotipos identifican productos de sus respectivos titulares. No se recrean sus marcas ni se afirma que estos productos avalen ArchForms.
 
 El símbolo de ArchForms y las capturas locales tienen su procedencia documentada en `../../../../BRAND-ARCHFORMS.md` y `../screens/SOURCES.json`.
+# Iconos de la diapositiva de competencia
+
+- Obsiva: [icono de App Store](https://apps.apple.com/us/app/obsiva-inspection-report-app/id6824538183).
+- ArchiSnapper: [icono de App Store](https://apps.apple.com/us/app/deltek-archisnapper/id6478156544).
+# Cartografía
+
+- Mapa de América Latina y el Caribe y contorno de Perú: [Natural Earth, Admin 0 Countries, escala 1:50 millones](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/), dominio público. Ambos contornos usan la misma escala y no se inclinan por separado.
